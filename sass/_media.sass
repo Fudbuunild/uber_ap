@@ -1,0 +1,149 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 20px
+        .menu_link
+            font-size: 13px    
+    .promo
+        .promo_header
+           font-size: 50px
+    .hxl
+        margin: -40px auto auto auto
+    .car_ads    
+        margin: -40px auto auto auto   
+    .mobile
+	    &_item 
+	      width: 290px
+		  &_subtitle
+		    font-size: 22px
+
+@media (max-width: 991px)
+    .menu
+        .menu_item
+            padding-right: 8px
+        .menu_link
+            font-size: 10px 
+    .subheader
+        &_logo
+            img 
+                width: 100%       
+        .subheader_phone
+            font-size: 18px  
+        .subheader_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%         
+    .promo
+        .promo_header
+           font-size: 40px   
+        .promo_subheader
+           font-size: 30px    
+    .mobile_item
+        witdh: 100%       
+    .car_uber
+        min-height: 500px
+        .car_fon 
+            position: relative
+            top: 20px
+        .hxl
+            font-size: 20px
+        .car_ads2
+
+            font-size: 10px 
+               
+
+
+              
+@media (max-width: 768px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        z-index: 5
+        transition: 0.2s all
+        .menu_active
+           left: 10px
+        .menu_item
+           padding-right: 0
+           border: none   
+           margin: 10px 0 
+        .menu_link  
+           font-style: 20px
+    .hamburger
+        display: block
+        position: absolute     
+        right: 10px
+        top: 50%
+        transform: translate(-50%)
+        width: 26px
+        z-index: 10
+        span
+            display: block
+            height: 2px 
+            width: 100%
+            background-color: red
+            margin-bottom: 2px
+            transition: 0.5s all
+        .hamburger_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)    
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg) 
+        font-size: 30px                  
+@media (max-width: 576px)     
+    .menu
+        .menu_item
+            padding-right: 8px
+        .menu_link
+            font-size: 10px 
+    .subheader
+        &_logo
+            img 
+                width: 300px       
+        .subheader_phone
+            font-size: 18px  
+        .subheader_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%         
+    .promo
+        .promo_header
+           font-size: 30px   
+        .promo_subheader
+           font-size: 25px          
+        .promo_descr
+           display: none              
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block    
+    .subheader
+        &_phone
+             color: #ffffff
+             font-size: 14px
+             font-weight: 400
+             text-transform: uppercase
+             text-align: center
+    .reasons 
+        padding: 22px 0 36px 0
+        &_block
+            margin-top: 25px
+
+    .title
+        margin-top: 15px  
+        font-size: 16px                 
+    .car_ads
+        display: none    
+    .footer_links
+        display: none   
